@@ -1,0 +1,26 @@
+*:focus {
+  box-shadow: none !important;
+}
+.icons {
+  font-size: 1.5rem;
+  display: inline;
+  margin: 0 1.5rem 0 1.5rem;
+}
+.shd {
+  box-shadow: 9px 10px 15px -7px rgba(153, 153, 153, 0.75);
+  -webkit-box-shadow: 9px 10px 15px -7px rgba(153, 153, 153, 0.75);
+  -moz-box-shadow: 9px 10px 15px -7px rgba(153, 153, 153, 0.75);
+}
+.blur {
+  background-color: rgba(255, 255, 255, 0.095);
+  backdrop-filter: blur(2px);
+}
+
+.rsize {
+  background: #000;
+}
+.grid_jobs {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+}
